@@ -8,7 +8,7 @@
             
             <p>Nerudova 188 <br> Uherský Brod <br> 688 01</p>
             <p>Tel. obchod: +420 572 633 840 <br> Tel. servis: +420 572 632 576</p>
-            <p>E-mail: izimcikova@seznam.cz 1345</p>
+            <p>E-mail: izimcikova@seznam.cz</p>
 
             <h3>Otevírací doba:</h3>
             

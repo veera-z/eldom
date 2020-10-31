@@ -155,7 +155,7 @@ body {
   background-color: white;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 750px) {
   body {
     background: url(./assets/spotrebice_light.jpg) repeat center ;
     
@@ -163,7 +163,7 @@ body {
 
 
   .body2 {
-    width: 50%;
+    width: 750px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 30px;
