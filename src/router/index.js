@@ -26,8 +26,8 @@ Vue.use(VueRouter)
   },
   {
     path: '/',
-    name: 'Kontakty',
-    component: Kontakty
+    name: 'Produkty',
+    component: Produkty
   },
 ]
   

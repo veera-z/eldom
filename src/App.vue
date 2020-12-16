@@ -6,7 +6,9 @@
       <div class="body2">
         <div class="main-content">
             <div class="logo">
-                <img src="./assets/ELDOM-logo.jpg" alt="ELDOM-logos">
+              <a href="http://eldom.cz/#/">
+                  <img src="./assets/ELDOM-logo.jpg" alt="ELDOM-logos">
+                </a>
             </div>
             <ul class="menu">
                 
