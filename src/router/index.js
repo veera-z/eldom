@@ -4,6 +4,7 @@ import VueRouter from 'vue-router'
 import Produkty from '../views/Produkty.vue'
 import Servis from '../views/Servis.vue'
 import Kontakty from '../views/Kontakty.vue'
+import Akce from '../views/Akce.vue'
 
 Vue.use(VueRouter)
 
@@ -28,6 +29,11 @@ Vue.use(VueRouter)
     path: '/',
     name: 'Produkty',
     component: Produkty
+  },
+  {
+    path: '/akce',
+    name: 'Akce',
+    component: Akce
   },
 ]
   

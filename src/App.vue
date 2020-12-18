@@ -13,6 +13,7 @@
             <ul class="menu">
                 
                 <li @click="activeBtn = 'produkty'" :class="{active: activeBtn === 'produkty'}"><router-link to="/produkty" >Prodej</router-link></li>
+                <li @click="activeBtn = 'akce'" :class="{active: activeBtn === 'akce'}"><router-link to="/akce">AKCE</router-link></li>
                 <li @click="activeBtn = 'servis'" :class="{active: activeBtn === 'servis'}"><router-link to="/servis">Servis</router-link></li>
                 <li @click="activeBtn = 'kontakty'" :class="{active: activeBtn === 'kontakty'}"><router-link to="/kontakty">Kontakty</router-link></li>
                 
@@ -165,7 +166,7 @@ body {
 
 
   .body2 {
-    width: 750px;
+    width: 900px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 30px;
