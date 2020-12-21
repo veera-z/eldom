@@ -8,6 +8,38 @@
                 <p class="item__popis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, qui a sunt eaque sed molestiae porro sequi eveniet ullam harum ducimus, dicta voluptas nobis ipsa ab labore quaerat quasi voluptatum?</p>
                 
             </div>
+            <h5>8 000 Kč</h5>
+            <h4>10 000 Kč</h4>
+        </div>
+        <div class="item__size">
+            <h4>Pracka</h4>
+            <img class="item" src="../assets/ImgW2.jpg" alt="">
+            <div class="item__text">
+                
+                <p class="item__popis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, qui a sunt eaque sed molestiae porro sequi eveniet ullam harum ducimus, dicta voluptas nobis ipsa ab labore quaerat quasi voluptatum?</p>
+                
+            </div>
+            <h4>10 000 Kč</h4>
+        </div>
+        <div class="item__size">
+            <h4>Pracka</h4>
+            <img class="item" src="../assets/ImgW3.jpg" alt="">
+            <div class="item__text">
+                
+                <p class="item__popis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, qui a sunt eaque sed molestiae porro sequi eveniet ullam harum ducimus, dicta voluptas nobis ipsa ab labore quaerat quasi voluptatum?</p>
+                
+            </div>
+            <h4>10 000 Kč</h4>
+        </div>
+        <div class="item__size">
+            <h4>Pracka</h4>
+            <img class="item" src="../assets/ImgW1.jpg" alt="">
+            <div class="item__text">
+                
+                <p class="item__popis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, qui a sunt eaque sed molestiae porro sequi eveniet ullam harum ducimus, dicta voluptas nobis ipsa ab labore quaerat quasi voluptatum?</p>
+                
+            </div>
+            <h5>8 000 Kč</h5>
             <h4>10 000 Kč</h4>
         </div>
         <div class="item__size">
@@ -54,13 +86,13 @@ export default {
 
 .item__size img{
     display: flex;
-    width: 300px;
+    width: auto;
     height: 300px;
     
     
     
     object-fit: contain;
-    margin: auto;
+    margin: 20px auto;
     
    
     
@@ -93,6 +125,13 @@ h4 {
     color: rgb(218, 37, 28) ;
     margin: 20px 30px;
 }
+h5 {
+    text-decoration: line-through;
+    margin: 20px 30px;
+}
+
+
+
 
 
 @media (min-width: 750px) {
@@ -102,7 +141,7 @@ h4 {
         flex-wrap: wrap;
     }
     .item__size {
-        width: 45%;
+        width: 29.5%;
     }
 
 }

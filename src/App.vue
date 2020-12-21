@@ -166,7 +166,7 @@ body {
 
 
   .body2 {
-    width: 900px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 30px;
